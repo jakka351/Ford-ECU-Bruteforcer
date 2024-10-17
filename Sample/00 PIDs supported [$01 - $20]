@@ -1,0 +1,174 @@
+00 PIDs supported [$01 - $20]
+01 Monitor status since DTCs cleared. (Includes malfunction indicator lamp (MIL), status and number of DTCs, components tests, DTC readiness checks)
+02 DTC that caused freeze frame to be stored.
+03 Fuel system status
+04 Calculated engine load
+05 Engine coolant temperature
+06 Short term fuel trim (STFT)—Bank 1
+07 Long term fuel trim (LTFT)—Bank 1
+08 Short term fuel trim (STFT)—Bank 2
+09 Long term fuel trim (LTFT)—Bank 2
+0A Fuel pressure (gauge pressure)
+0B Intake manifold absolute pressure
+0C Engine speed
+0D Vehicle speed
+0E Timing advance
+0F Intake air temperature
+10 Mass air flow sensor (MAF) air flow rate
+11 Throttle position
+12 Commanded secondary air status
+13 Oxygen sensors present (in 2 banks)
+14 Oxygen Sensor 1 A: Voltage B: Short term fuel trim
+15 Oxygen Sensor 2 A: Voltage B: Short term fuel trim
+16 Oxygen Sensor 3 A: Voltage B: Short term fuel trim
+17 Oxygen Sensor 4 A: Voltage B: Short term fuel trim
+18 Oxygen Sensor 5 A: Voltage B: Short term fuel trim
+19 Oxygen Sensor 6 A: Voltage B: Short term fuel trim
+1A Oxygen Sensor 7 A: Voltage B: Short term fuel trim
+1B Oxygen Sensor 8 A: Voltage B: Short term fuel trim
+1C OBD standards this vehicle conforms to
+1D Oxygen sensors present (in 4 banks)
+1E Auxiliary input status
+1F Run time since engine start
+20 PIDs supported [$21 - $40]
+21 Distance traveled with malfunction indicator lamp (MIL) on
+22 Fuel Rail Pressure (relative to manifold vacuum)
+23 Fuel Rail Gauge Pressure (diesel, or gasoline direct injection)
+24 Oxygen Sensor 1 AB: Air-Fuel Equivalence Ratio (lambda,λ) CD: Voltage
+25 Oxygen Sensor 2 AB: Air-Fuel Equivalence Ratio (lambda,λ) CD: Voltage
+26 Oxygen Sensor 3 AB: Air-Fuel Equivalence Ratio (lambda,λ) CD: Voltage
+27 Oxygen Sensor 4 AB: Air-Fuel Equivalence Ratio (lambda,λ) CD: Voltage
+28 Oxygen Sensor 5 AB: Air-Fuel Equivalence Ratio (lambda,λ) CD: Voltage
+29 Oxygen Sensor 6 AB: Air-Fuel Equivalence Ratio (lambda,λ) CD: Voltage
+2A Oxygen Sensor 7 AB: Air-Fuel Equivalence Ratio (lambda,λ) CD: Voltage
+2B Oxygen Sensor 8 AB: Air-Fuel Equivalence Ratio (lambda,λ) CD: Voltage
+2C Commanded EGR
+2D EGR Error
+2E Commanded evaporative purge
+2F Fuel Tank Level Input
+30 Warm-ups since codes cleared
+31 Distance traveled since codes cleared
+32 Evap. System Vapor Pressure
+33 Absolute Barometric Pressure
+34 Oxygen Sensor 1 AB: Air-Fuel Equivalence Ratio (lambda,λ) CD: Current
+35 Oxygen Sensor 2 AB: Air-Fuel Equivalence Ratio (lambda,λ) CD: Current
+36 Oxygen Sensor 3 AB: Air-Fuel Equivalence Ratio (lambda,λ) CD: Current
+37 Oxygen Sensor 4 AB: Air-Fuel Equivalence Ratio (lambda,λ) CD: Current
+38 Oxygen Sensor 5 AB: Air-Fuel Equivalence Ratio (lambda,λ) CD: Current
+39 Oxygen Sensor 6 AB: Air-Fuel Equivalence Ratio (lambda,λ) CD: Current
+3A Oxygen Sensor 7 AB: Air-Fuel Equivalence Ratio (lambda,λ) CD: Current
+3B Oxygen Sensor 8 AB: Air-Fuel Equivalence Ratio (lambda,λ) CD: Current
+3C Catalyst Temperature: Bank 1, Sensor 1
+3D Catalyst Temperature: Bank 2, Sensor 1
+3E Catalyst Temperature: Bank 1, Sensor 2
+3F Catalyst Temperature: Bank 2, Sensor 2
+40 PIDs supported [$41 - $60]
+41 Monitor status this drive cycle
+42 Control module voltage
+43 Absolute load value
+44 Commanded Air-Fuel Equivalence Ratio (lambda,λ)
+45 Relative throttle position
+46 Ambient air temperature
+47 Absolute throttle position B
+48 Absolute throttle position C
+49 Accelerator pedal position D
+4A Accelerator pedal position E
+4B Accelerator pedal position F
+4C Commanded throttle actuator
+4D Time run with MIL on
+4E Time since trouble codes cleared
+4F Maximum value for Fuel–Air equivalence ratio, oxygen sensor voltage, oxygen sensor current, and intake manifold absolute pressure
+50 Maximum value for air flow rate from mass air flow sensor
+51 Fuel Type
+52 Ethanol fuel %
+53 Absolute Evap system Vapor Pressure
+54 Evap system vapor pressure
+55 Short term secondary oxygen sensor trim, A: bank 1, B: bank 3
+56 Long term secondary oxygen sensor trim, A: bank 1, B: bank 3
+57 Short term secondary oxygen sensor trim, A: bank 2, B: bank 4
+58 Long term secondary oxygen sensor trim, A: bank 2, B: bank 4
+59 Fuel rail absolute pressure
+5A Relative accelerator pedal position
+5B Hybrid battery pack remaining life
+5C Engine oil temperature
+5D Fuel injection timing
+5E Engine fuel rate
+5F Emission requirements to which vehicle is designed
+60 PIDs supported [$61 - $80]
+61 Driver's demand engine - percent torque
+62 Actual engine - percent torque
+63 Engine reference torque
+64 Engine percent torque data
+65 Auxiliary input / output supported
+66 Mass air flow sensor
+67 Engine coolant temperature
+68 Intake air temperature sensor
+69 Actual EGR, Commanded EGR, and EGR Error
+6A Commanded Diesel intake air flow control and relative intake air flow position
+6B Exhaust gas recirculation temperature
+6C Commanded throttle actuator control and relative throttle position
+6D Fuel pressure control system
+6E Injection pressure control system
+6F Turbocharger compressor inlet pressure
+70 Boost pressure control
+71 Variable Geometry turbo (VGT) control
+72 Wastegate control
+73 Exhaust pressure
+74 Turbocharger RPM
+75 Turbocharger temperature
+76 Turbocharger temperature
+77 Charge air cooler temperature (CACT)
+78 Exhaust Gas temperature (EGT) Bank 1
+79 Exhaust Gas temperature (EGT) Bank 2
+7A Diesel particulate filter (DPF) differential pressure
+7B Diesel particulate filter (DPF)
+7C Diesel Particulate filter (DPF) temperature
+7D NOx NTE (Not-To-Exceed) control area status
+7E PM NTE (Not-To-Exceed) control area status
+7F Engine run time [b]
+80 PIDs supported [$81 - $A0]
+81 Engine run time for Auxiliary Emissions Control Device(AECD)
+82 Engine run time for Auxiliary Emissions Control Device(AECD)
+83 NOx sensor
+84 Manifold surface temperature
+85 NOx reagent system
+86 Particulate matter (PM) sensor
+87 Intake manifold absolute pressure
+88 SCR Induce System
+89 Run Time for AECD #11-#15
+8A Run Time for AECD #16-#20
+8B Diesel Aftertreatment
+8C O2 Sensor (Wide Range)
+8D Throttle Position G
+8E Engine Friction - Percent Torque
+8F PM Sensor Bank 1 & 2
+90 WWH-OBD Vehicle OBD System Information
+91 WWH-OBD Vehicle OBD System Information
+92 Fuel System Control
+93 WWH-OBD Vehicle OBD Counters support
+94 NOx Warning And Inducement System
+98 Exhaust Gas Temperature Sensor
+99 Exhaust Gas Temperature Sensor
+9A Hybrid/EV Vehicle System Data, Battery, Voltage
+9B Diesel Exhaust Fluid Sensor Data
+9C O2 Sensor Data
+9D Engine Fuel Rate
+9E Engine Exhaust Flow Rate
+9F Fuel System Percentage Use
+A0 PIDs supported [$A1 - $C0]
+A1 NOx Sensor Corrected Data
+A2 Cylinder Fuel Rate
+A3 Evap System Vapor Pressure
+A4 Transmission Actual Gear
+A5 Commanded Diesel Exhaust Fluid Dosing
+A6 Odometer [c]
+A7 NOx Sensor Concentration Sensors 3 and 4
+A8 NOx Sensor Corrected Concentration Sensors 3 and 4
+A9 ABS Disable Switch State
+C0 PIDs supported [$C1 - $E0]
+C3 Fuel Level Input A/B
+C4 Exhaust Particulate Control System Diagnostic Time/Count
+C5 Fuel Pressure A and B
+C6 Byte 1 - Particulate control - driver inducement system status Byte 2,3 - Removal or block of the particulate aftertreatment system counter Byte 4,5 - Liquid regent injection system (e.g. fuel-borne catalyst) failure counter Byte 6,7 - Malfunction of Particulate control monitoring system counter
+C7 Distance Since Reflash or Module Replacement
+C8 NOx Control Diagnostic (NCD) and Particulate Control Diagnostic (PCD) Warning Lamp status
