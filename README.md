@@ -11,6 +11,7 @@
 Bruteforce Security Access on Ford ECU's
 
 This is the open source version od the bruteforcer, there is an enterprise grade version available for purchase that is actively developed and supported, providing security access to most Ford, Mazda and Jaguar Land Rover controllers as well as other features and functions not available in the open source version. The enterprise grade version has full support for all SAE J2534 interfaces. Contact Tester Present for purchase information https://testerpresent.com.au/. 
+<img width="1920" height="1036" alt="image" src="https://github.com/user-attachments/assets/9bf3e833-fe16-4237-b203-bb6e9e3920ad" />
 
 
 I have tested this on an Audio Control Module, an Audio Interface Module and an Instrument Cluster with success. Uses the keybag from the Ford Hack to bruteforce 0x27 Security Access, and finds a matching key that unlocks the module. Options to select Midspeed or High Speed CAN, and options to select which type of diagnostic session you want to try the bruteforce in, handles 0x7F errors by aborting the bruteforce attempt. This should work on any Ford ECU that is pre 2011, assuming it is a 3 Byte Seed and a 5 Byte Key.
