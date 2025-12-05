@@ -10,7 +10,7 @@
 ![image](https://user-images.githubusercontent.com/57064943/163714778-8598c24a-6ae2-49f6-ba4c-42de94dfa025.png)
 Bruteforce Security Access on Ford ECU's
 
-This is the open source version od the bruteforcer, there is an enterprise grade version available for purchase that is actively developed and supported, providing security access to most Ford, Mazda and Jaguar Land Rover controllers as well as other features and functions not available in the open source version. The enterprise grade version has full support for all SAE J2534 interfaces. Contact Tester Present for purchase information https://testerpresent.com.au/. 
+This is the open source version of the bruteforcer, there is an enterprise grade version available for purchase that is actively developed and supported, providing security access to most Ford, Mazda and Jaguar Land Rover controllers as well as other features and functions not available in the open source version. The enterprise grade version has full support for all SAE J2534 interfaces. Contact Tester Present for purchase information https://testerpresent.com.au/. 
 <img width="1920" height="1036" alt="image" src="https://github.com/user-attachments/assets/9bf3e833-fe16-4237-b203-bb6e9e3920ad" />
 
 
